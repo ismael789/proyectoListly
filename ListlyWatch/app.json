@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Listly Watch",
+    "slug": "listly-watch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "listlywatch",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.listly.watch",
+      "adaptiveIcon": {
+        "backgroundColor": "#111513",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
